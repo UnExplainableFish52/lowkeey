@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: background-color 0.3s ease-in-out;
+    background-color: white;
+    border-radius: 10px;
+    overflow-x: hidden;
+
+    /* Media queries */
+    @media screen and (max-width: 768px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 12px;
+    }
+    /* End media queries */
+    /* Custom styles */
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+    a:hover {
+        color: #f96d00;
+    }
+    /* End custom styles */
+    /* End body */
+    /* End style */
+
+    /* Custom styles for the navigation bar */
+    nav {
+        background-color: #f96d00;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        margin-right: 20px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+    nav ul li a:hover {
+        color: #333;
+    }
+    /* End custom styles for the navigation bar */
+    /* End nav */
+    
+}
